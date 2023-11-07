@@ -1,0 +1,7 @@
+<launch>
+    <node name="controller" pkg="training_activities_solutions" type="Act3_part2_sol" output="screen">
+    
+    <rosparam command="load"
+        file="$(find training_activities_solutions)/config/A3params.yaml" />
+    </node>
+</launch>

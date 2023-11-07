@@ -1,0 +1,11 @@
+#target orientation for the controller (in degree)
+target_orientation: 70
+#max error (in degree)
+tolerance: 0.5
+# exponential function params y = A*exp(M*x+K)
+A_left: -1
+M_left: 3.57
+K_left: -4.53
+A_right: 1
+M_right: 3.75
+K_right: -3.33
